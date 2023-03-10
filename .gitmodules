@@ -1,0 +1,61 @@
+[submodule "odoo/src"]
+	path = odoo/src
+	url = git@gitlab.com:kal-it/internal/OCB.git
+	branch = 14.0
+
+; Cybrosys
+;[submodule "odoo/external-src/cybrosys"]
+;	path = odoo/external-src/cybrosys
+;	url = https://github.com/CybroOdoo/CybroAddons.git
+;	branch = 14.0
+
+; OCA
+;[submodule "odoo/external-src/account-financial-reporting"]
+;	path = odoo/external-src/account-financial-reporting
+;	url = https://github.com/OCA/account-financial-reporting.git
+;	branch = 14.0
+
+;[submodule "odoo/external-src/account-financial-tools"]
+;	path = odoo/external-src/account-financial-tools
+;	url = https://github.com/OCA/account-financial-tools.git
+;	branch = 14.0
+
+;[submodule "odoo/external-src/partner-contact"]
+;	path = odoo/external-src/partner-contact
+;	url = https://github.com/OCA/partner-contact.git
+;	branch = 14.0
+
+;[submodule "odoo/external-src/reporting-engine"]
+;	path = odoo/external-src/reporting-engine
+;	url = https://github.com/OCA/reporting-engine.git
+;	branch = 14.0
+
+;[submodule "odoo/external-src/server-tools"]
+;	path = odoo/external-src/server-tools
+;	url = https://github.com/OCA/server-tools.git
+;	branch = 14.0
+
+[submodule "odoo/external-src/server-ux"]
+	path = odoo/external-src/server-ux
+	url = https://github.com/OCA/server-ux.git
+	branch = 14.0
+
+;[submodule "odoo/external-src/social"]
+;	path = odoo/external-src/social
+;	url = https://github.com/OCA/social
+;	branch = 14.0
+
+;[submodule "odoo/external-src/report-print-send"]
+;	path = odoo/external-src/report-print-send
+;	url = https://github.com/OCA/report-print-send
+;	branch = 14.0
+
+;[submodule "odoo/external-src/pos"]
+;	path = odoo/external-src/pos
+;	url = https://github.com/OCA/pos
+;	branch = 14.0
+
+[submodule "odoo/external-src/web"]
+	path = odoo/external-src/web
+	url = https://github.com/OCA/web.git
+	branch = 14.0

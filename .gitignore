@@ -1,0 +1,12 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# Translations
+*.mo
+
+# local dev requirements
+odoo/dev_requirements.txt
+
+# local dev composition
+docker-compose.override.yml

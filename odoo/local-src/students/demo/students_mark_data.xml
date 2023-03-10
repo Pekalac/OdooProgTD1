@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<odoo>
+    <record id="prog" model="students.mark">
+        <field name="subject">Programmation</field>
+        <field name="mark">02.00</field>
+        <field name="student_id" ref="1"/>
+    </record>
+    <record id="bdd" model="students.mark">
+        <field name="subject">Base de Données SQL</field>
+        <field name="mark">20.00</field>
+        <field name="student_id" ref="2"/>
+    </record>
+    <record id="eco" model="students.mark">
+        <field name="subject">Economie et Droit</field>
+        <field name="mark">15.00</field>
+        <field name="student_id" ref="3"/>
+    </record>
+    <record id="an" model="students.mark">
+        <field name="subject">Anglais</field>
+        <field name="mark">12.00</field>
+        <field name="student_id" ref="4"/>
+    </record>
+    <record id="comm" model="students.mark">
+        <field name="subject">Communication</field>
+        <field name="mark">08.00</field>
+        <field name="student_id" ref="3"/>
+    </record>
+    <record id="opti" model="students.mark">
+        <field name="subject">Optimisation</field>
+        <field name="mark">06.00</field>
+        <field name="student_id" ref="2"/>
+    </record>
+    <record id="mana" model="students.mark">
+        <field name="subject">Management des SI</field>
+        <field name="mark">15.00</field>
+        <field name="student_id" ref="3"/>
+    </record>
+    <record id="crypto" model="students.mark">
+        <field name="subject">Cryptographie</field>
+        <field name="mark">15.00</field>
+        <field name="student_id" ref="3"/>
+    </record>
+</odoo>

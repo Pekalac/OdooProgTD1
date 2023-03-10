@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<odoo>
+    <record id="1" model="students.student">
+        <field name="number">1111111111A</field>
+        <field name="firstname">Vincent</field>
+        <field name="lastname">COUTURIER</field>
+        <field name="training_id" ref="info"/>
+    </record>
+    <record id="2" model="students.student">
+        <field name="number">2222222222B</field>
+        <field name="firstname">Pascal</field>
+        <field name="lastname">COLIN</field>
+        <field name="training_id" ref="info"/>
+    </record>
+    <record id="3" model="students.student">
+        <field name="number">3333333333C</field>
+        <field name="firstname">Yohann</field>
+        <field name="lastname">GAILLARD</field>
+        <field name="training_id" ref="tc"/>
+    </record>
+    <record id="4" model="students.student">
+        <field name="number">4444444444D</field>
+        <field name="firstname">Paul</field>
+        <field name="lastname">MARTIN</field>
+        <field name="training_id" ref="info"/>
+    </record>
+    <record id="5" model="students.student">
+        <field name="number">5555555555E</field>
+        <field name="firstname">Jean</field>
+        <field name="lastname">PERRIN</field>
+        <field name="training_id" ref="tc"/>
+    </record>
+</odoo>
